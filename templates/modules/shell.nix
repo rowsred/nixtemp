@@ -8,6 +8,8 @@
     { config, pkgs, ... }:
     {
       devShells.default = pkgs.mkShell {
+        nativeBuildInputs = with pkgs; [
+        ];
         buildInputs = with pkgs; [
         ];
         shellHook = ''
