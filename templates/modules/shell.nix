@@ -9,10 +9,9 @@
     {
       devShells.default = pkgs.mkShell {
         buildInputs = with pkgs; [
-          hello
         ];
         shellHook = ''
-          echo "Welcome to Shell"
+          echo "Welcome to DevShell"
         '';
       };
     };
