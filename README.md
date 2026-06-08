@@ -12,12 +12,12 @@
 
 
 
-**Template 
+## Template 
 ```bash
 nix flake init -t github:rowsred/nixtemp
 
 ```
-**Structure
+## Structure
 ```bash
     ├── flake.nix
     └── modules
@@ -27,4 +27,4 @@ nix flake init -t github:rowsred/nixtemp
 4 directories, 7 files
 ```
 
-** i like that
+# i like that
